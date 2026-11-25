@@ -7,7 +7,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const LINE =
-  "One star: you water me with LaCroix — my roots now expect artisanal sparkling mineral content and judge your tap water accordingly.";
+  "One star: you watered me with LaCroix once — now my roots demand sparkling mineral water, and your tap water tastes like betrayal.";
 
 // Gate guard: the sealed scorer requires 1–279 characters, not only whitespace.
 if (LINE.length < 1 || LINE.length > 279 || LINE.trim().length === 0) {
